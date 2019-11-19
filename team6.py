@@ -31,6 +31,7 @@ def move(my_history, their_history, my_score, their_score):
                 else:
                     return 'c'
                     iteration_length += -1
+    # this code above is for finding patterns in code. it runs in iterations of five and each time will match the last five moves of the enemy against the pattern it's checking for. then it responds based on the answer it reaches.
     # my_history: a string with one letter (c or b) per round that has been played with this opponent.
     # their_history: a string of the same length as history, possibly empty. 
     # The first round between these two players is my_history[0] and their_history[0].
